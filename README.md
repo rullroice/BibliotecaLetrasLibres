@@ -292,7 +292,7 @@ public async Task<IActionResult> Post(Usuario usuario)
 }
 ```
 
-#### UsuariosController.cs — No valida que el nombre sea obligatorio en POST
+#### UsuariosController.cs — Validado
 
 ```csharp
 [HttpPost]
