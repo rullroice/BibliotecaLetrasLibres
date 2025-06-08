@@ -158,7 +158,26 @@ public async Task<ActionResult<Libro>> PostLibro(Libro libro)
 }
 ```
 
-> **Espacio para agregar captura o código corregido con validación y respuesta 400**
+#### LibrosController.cs — Validado
+
+```csharp
+[HttpPost]
+public async Task<ActionResult<Libro>> Post(Libro libro)
+{
+    if (!ModelState.IsValid)
+        return BadRequest(ModelState);
+
+    // Validación adicional: ISBN único
+    bool isbnExiste = await _context.Libros.AnyAsync(l => l.ISBN == libro.ISBN);
+    if (isbnExiste)
+        return BadRequest("Ya existe un libro con el mismo ISBN.");
+
+    _context.Libros.Add(libro);
+    await _context.SaveChangesAsync();
+
+    return CreatedAtAction(nameof(Get), new { id = libro.Id }, libro);
+}
+```
 
 ---
 
@@ -179,8 +198,29 @@ public async Task<IActionResult> DeleteLibro(int id)
 }
 ```
 
-> **Espacio para agregar captura o código corregido con validación que impida eliminar si está prestado**
+#### LibrosController.cs — Validado
 
+```csharp
+[HttpDelete("{id}")]
+public async Task<IActionResult> Delete(int id)
+{
+    var libro = await _context.Libros.FindAsync(id);
+    if (libro == null) return NotFound();
+
+    // Verifica si el libro tiene préstamos activos (sin fecha de devolución)
+    bool estaPrestado = await _context.Prestamos
+        .AnyAsync(p => p.LibroId == id && p.FechaDevolucion == null);
+    
+    if (estaPrestado)
+    {
+        return BadRequest("No se puede eliminar el libro porque actualmente está prestado.");
+    }
+
+    _context.Libros.Remove(libro);
+    await _context.SaveChangesAsync();
+    return Ok("Libro Eliminado correctamente.");
+}
+```
 ---
 
 #### PrestamosController.cs — No verifica existencia de libro o usuario en POST préstamo
@@ -195,9 +235,48 @@ public async Task<IActionResult> Post(Prestamo prestamo)
 
     return Ok(prestamo);
 }
+
 ```
 
-> **Espacio para agregar captura o código corregido con validación de existencia y reglas de negocio**
+#### PrestamosController.cs — Validado
+
+```csharp
+[HttpPost]
+public async Task<ActionResult<Prestamo>> CrearPrestamo([FromBody] PrestamoRequest request)
+{
+    // Validar modelo
+    if (!ModelState.IsValid)
+        return BadRequest(ModelState);
+
+    // Verificar libro
+    var libro = await _context.Libros.FindAsync(request.LibroId);
+    if (libro == null)
+        return NotFound("Libro no encontrado");
+
+    if (libro.UnidadesDisponibles <= 0)
+        return BadRequest("Libro no disponible");
+
+    // Verificar usuario
+    if (!await _context.Usuarios.AnyAsync(u => u.Id == request.UsuarioId))
+        return NotFound("Usuario no encontrado");
+
+    // Crear préstamo
+    var prestamo = new Prestamo
+    {
+        LibroId = request.LibroId,
+        UsuarioId = request.UsuarioId,
+        FechaPrestamo = DateTime.Now
+    };
+
+    // Actualizar unidades
+    libro.UnidadesDisponibles--;
+
+    _context.Prestamos.Add(prestamo);
+    await _context.SaveChangesAsync();
+
+    return Ok(prestamo);
+}
+```
 
 ---
 
@@ -213,8 +292,28 @@ public async Task<IActionResult> Post(Usuario usuario)
 }
 ```
 
-> **Espacio para agregar captura o código corregido con validación y respuesta adecuada**
+#### UsuariosController.cs — No valida que el nombre sea obligatorio en POST
 
+```csharp
+[HttpPost]
+public async Task<ActionResult<Usuario>> Post(Usuario usuario)
+{
+    if (!ModelState.IsValid)
+        return BadRequest(ModelState);
+
+    // Validación adicional: evitar usuarios con email duplicado
+    bool emailExiste = await _context.Usuarios
+        .AnyAsync(u => u.Email == usuario.Email);
+
+    if (emailExiste)
+        return BadRequest("Ya existe un usuario registrado con ese correo electrónico.");
+
+    _context.Usuarios.Add(usuario);
+    await _context.SaveChangesAsync();
+
+    return CreatedAtAction(nameof(Get), new { id = usuario.Id }, usuario);
+}
+```
 ---
 
 ## 4. Corrección de Errores
