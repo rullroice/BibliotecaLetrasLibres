@@ -1,14 +1,95 @@
-# Documentación del Proyecto: Web API RESTful para Biblioteca Municipal “Letras Libres”
-- Nombres: Vicente Lizana, Raúl Ibarra y Jhon Jaire.
-- Fecha: 10-06-2025
+# 📚 Documentación del Proyecto: Web API RESTful para Biblioteca Municipal “Letras Libres”
 
-## 1. Contexto Inicial
+- **Nombres:** Vicente Lizana, Raúl Ibarra y Jhon Jaire  
+- **Fecha:** 10-06-2025
+
+---
+
+## 📌 Índice
+
+1. [Contexto Inicial](#contexto-inicial)  
+2. [Evidencia en Postman](#evidencia-en-postman)  
+   - [Libros - CRUD](#libros---crud)  
+   - [Usuarios - CRUD](#usuarios---crud)  
+   - [Préstamos - CRUD](#préstamos---crud)  
+3. [Necesidades y Requerimientos](#necesidades-y-requerimientos)  
+4. [Errores Encontrados y Descripción](#errores-encontrados-y-descripción)  
+   - [Modelos](#en-los-modelos)  
+   - [Controladores](#en-los-controladores)  
+5. [Corrección de Errores](#corrección-de-errores)  
+6. [Conclusión](#conclusión)  
+
+---
+
+## Contexto Inicial
 
 La Biblioteca Municipal “Letras Libres” utiliza actualmente un sistema manual basado en hojas de cálculo para la gestión de libros, usuarios y préstamos. Esto ocasiona ineficiencias, falta de escalabilidad y riesgo de pérdida o inconsistencia de datos. Por esta razón, se contrató a nuestro equipo para desarrollar una Web API RESTful usando ASP.NET Core y Entity Framework Core que permita digitalizar y modernizar estos procesos, sentando las bases para futuras aplicaciones móviles y web.
 
 ---
 
-## 2. Necesidades y Requerimientos
+## 📸 Evidencia en Postman
+
+### Libros - CRUD
+
+**1. Obtener todos los libros**  
+![GET-Libros](Postman_Evidencias/GET-Libros.png)
+
+**2. Crear un nuevo libro**  
+![POST-Libros](Postman_Evidencias/POST-Libros.png)
+
+**3. Consultar libro por ID**  
+![GET-ID-Libros](Postman_Evidencias/GET-ID-Libros.png)
+
+**4. Editar libro por ID**  
+![PUT-Libros](Postman_Evidencias/PUT-Libros.png)
+
+**5. Eliminar libro por ID**  
+![DELETE-Libros](Postman_Evidencias/DELETE-Libros.png)
+
+**6. Consultar libro eliminado (404)**  
+![GET-ID-Libros(Eliminado)](Postman_Evidencias/GET-ID-Libros(Eliminado).png)
+
+---
+
+### Usuarios - CRUD
+
+**7. Obtener todos los usuarios**  
+![GET-Usuarios](Postman_Evidencias/GET-Usuarios.png)
+
+**8. Crear nuevo usuario**  
+![POST-Usuarios](Postman_Evidencias/POST-Usuarios.png)
+
+**9. Consultar usuario por ID**  
+![GET-ID-Usuarios](Postman_Evidencias/GET-ID-Usuarios.png)
+
+**10. Editar usuario por ID**  
+![PUT-Usuario(Agregado Extra)](Postman_Evidencias/PUT-Usuario(Agregado Extra).png)
+
+**11. Eliminar usuario por ID**  
+![DELETE-Usuarios_(Agregado_Extra)](Postman_Evidencias/DELETE-Usuarios_(Agregado_Extra).png)
+
+**12. Ver usuarios después de eliminar**  
+![GET-Usuarios_(Eliminado)](Postman_Evidencias/GET-Usuarios_(Eliminado).png)
+
+---
+
+### Préstamos - CRUD
+
+**13. Crear préstamo**  
+![POST-Prestamos](Postman_Evidencias/POST-Prestamos.png)
+
+**14. Devolver préstamo**  
+![POST-ID-PRESTAMO](Postman_Evidencias/POST-ID-PRESTAMO.png)
+
+**15. Ver todos los préstamos**  
+![GET-Prestamos_(Agregado_Extra)](Postman_Evidencias/GET-Prestamos_(Agregado_Extra).png)
+
+**16. Ver préstamos de un usuario específico**  
+![GET-Usuario-Prestamos](Postman_Evidencias/GET-Usuario-Prestamos.png)
+
+---
+
+##  Necesidades y Requerimientos
 
 El sistema debe cubrir los siguientes requisitos funcionales:
 
@@ -24,9 +105,9 @@ El sistema debe cubrir los siguientes requisitos funcionales:
 
 ---
 
-## 3. Errores Encontrados y Descripción
+## Errores Encontrados y Descripción
 
-### 3.1 En los Modelos
+### En los Modelos
 
 #### Libro.cs — Falta validación obligatoria en `Titulo`
 En este caso, el error presentado significa que no se validara si el titulo se encuentra con o sin texto, pudiendo generar no solo confusiones, si no que, tambien, errores a corto o largo plazo, al no haber una corección de por medio, esto podria generar horas de trabajo perdidas, en solucionar el problema desde la base de datos de la biblioteca, o podría llegar a significar evaluar manualmente el inventario fisico de libros.
@@ -143,7 +224,7 @@ public class Prestamo
 ```
 ---
 
-### 3.2 En los Controladores
+### En los Controladores
 
 #### LibrosController.cs — No valida que el título esté vacío en POST
 
@@ -316,7 +397,7 @@ public async Task<ActionResult<Usuario>> Post(Usuario usuario)
 ```
 ---
 
-## 4. Corrección de Errores
+## Corrección de Errores
 
 Para cada error detectado se aplicaron las siguientes medidas:
 
@@ -330,7 +411,7 @@ Para cada error detectado se aplicaron las siguientes medidas:
 
 ---
 
-## 5. Conclusión
+## Conclusión
 
 Se ha desarrollado una Web API RESTful que cumple con los requisitos funcionales definidos, utilizando ASP.NET Core y Entity Framework Core para la persistencia en SQL Server. El proyecto inicialmente contenía errores comunes relacionados con validaciones insuficientes y reglas de negocio no implementadas, lo que podría provocar inconsistencias y datos inválidos.
 
