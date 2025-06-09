@@ -32,60 +32,66 @@ La Biblioteca Municipal “Letras Libres” utiliza actualmente un sistema manua
 ### Libros - CRUD
 
 **1. Obtener todos los libros**  
-![GET-Libros](Postman_Evidencias/GET-Libros.png)
+![GET-Libros](https://github.com/user-attachments/assets/222d7b14-3d10-4806-9aa6-1ff008cf9d58)
 
 **2. Crear un nuevo libro**  
-![POST-Libros](Postman_Evidencias/POST-Libros.png)
+![POST-Libros](https://github.com/user-attachments/assets/514e508f-0b91-432b-970f-bd9f3315c081)
 
 **3. Consultar libro por ID**  
-![GET-ID-Libros](Postman_Evidencias/GET-ID-Libros.png)
+![GET-ID-Libros](https://github.com/user-attachments/assets/c7b76087-31ea-49d4-9e38-51fe031ece28)
 
 **4. Editar libro por ID**  
-![PUT-Libros](Postman_Evidencias/PUT-Libros.png)
+![PUT-Libros](https://github.com/user-attachments/assets/2e88fe38-a569-442e-9c94-600f19c66ef8)
 
 **5. Eliminar libro por ID**  
-![DELETE-Libros](Postman_Evidencias/DELETE-Libros.png)
+![DELETE-Libros](https://github.com/user-attachments/assets/dcd6a73a-4591-481c-affe-e13bfc0f15a3)
 
 **6. Consultar libro eliminado (404)**  
-![GET-ID-Libros(Eliminado)](Postman_Evidencias/GET-ID-Libros(Eliminado).png)
+![GET-ID-Libros(Eliminado)](https://github.com/user-attachments/assets/e1d5a47a-a19c-4f1c-8212-a5b2ac4f2ddd)
+
 
 ---
 
 ### Usuarios - CRUD
 
 **7. Obtener todos los usuarios**  
-![GET-Usuarios](Postman_Evidencias/GET-Usuarios.png)
+![GET-Usuarios](https://github.com/user-attachments/assets/a26da060-4a7b-4c8a-a411-06459bf07f74)
 
 **8. Crear nuevo usuario**  
-![POST-Usuarios](Postman_Evidencias/POST-Usuarios.png)
+![POST-Usuarios](https://github.com/user-attachments/assets/46e3cdfb-f905-4751-bce5-07c8f4155315)
 
 **9. Consultar usuario por ID**  
-![GET-ID-Usuarios](Postman_Evidencias/GET-ID-Usuarios.png)
+![GET-ID-Usuarios](https://github.com/user-attachments/assets/0722b3a3-5c75-475f-a7c0-4ff24405b2e5)
 
 **10. Editar usuario por ID**  
-![PUT-Usuario(Agregado Extra)](Postman_Evidencias/PUT-Usuario(Agregado Extra).png)
+![PUT-Usuario(Agregado Extra)](https://github.com/user-attachments/assets/011ef791-4b82-438a-9f31-80a875ac47b5)
 
 **11. Eliminar usuario por ID**  
-![DELETE-Usuarios_(Agregado_Extra)](Postman_Evidencias/DELETE-Usuarios_(Agregado_Extra).png)
+![DELETE-Usuarios_(Agregado_Extra)](https://github.com/user-attachments/assets/5e01279b-5971-4c93-b00d-402c8338bebc)
 
 **12. Ver usuarios después de eliminar**  
-![GET-Usuarios_(Eliminado)](Postman_Evidencias/GET-Usuarios_(Eliminado).png)
+![GET-Usuarios_(Eliminado)](https://github.com/user-attachments/assets/b3889da1-cbb6-4628-b464-574afb374cad)
+
 
 ---
 
 ### Préstamos - CRUD
 
 **13. Crear préstamo**  
-![POST-Prestamos](Postman_Evidencias/POST-Prestamos.png)
+![POST-Prestamos](https://github.com/user-attachments/assets/c0dd18f9-c7f8-4f84-97a4-f0dba0552dc5)
+
 
 **14. Devolver préstamo**  
-![POST-ID-PRESTAMO](Postman_Evidencias/POST-ID-PRESTAMO.png)
+![POST-ID-PRESTAMO](https://github.com/user-attachments/assets/fd7c0c21-795f-424e-bf37-7a9a0efe6a51)
+
 
 **15. Ver todos los préstamos**  
-![GET-Prestamos_(Agregado_Extra)](Postman_Evidencias/GET-Prestamos_(Agregado_Extra).png)
+![GET-Usuario-Prestamos](https://github.com/user-attachments/assets/ee85d2d3-de01-4222-9570-b7ce9caf16c9)
+
 
 **16. Ver préstamos de un usuario específico**  
-![GET-Usuario-Prestamos](Postman_Evidencias/GET-Usuario-Prestamos.png)
+![GET-Prestamos_(Agregado_Extra)](https://github.com/user-attachments/assets/c72511fa-b62e-4a1b-9fd3-43645a593b8c)
+
 
 ---
 
