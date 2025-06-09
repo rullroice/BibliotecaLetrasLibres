@@ -1,6 +1,6 @@
 # 📚 Documentación del Proyecto: Web API RESTful para Biblioteca Municipal “Letras Libres”
 
-- **Nombres:** Vicente Lizana, Raúl Ibarra y Jhon Jaire  
+- **Nombres:** Vicente Lizana, Raúl Ibarra y Jhon Jairo.  
 - **Fecha:** 10-06-2025
 
 ---
