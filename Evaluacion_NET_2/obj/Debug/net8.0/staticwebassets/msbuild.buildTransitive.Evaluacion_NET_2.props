@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Evaluacion_NET_2.props" />
-</Project>
