@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Evaluacion_Net_2.Controllers
 {
+    // Controlador para manejar las operaciones CRUD de los usuarios
     [Route("api/[controller]")]
     [ApiController]
     public class UsuariosController : ControllerBase
@@ -17,12 +18,14 @@ namespace Evaluacion_Net_2.Controllers
             _context = context;
         }
 
+        // Método GET - Obtener todos los usuarios
         [HttpGet]
         public async Task<ActionResult<List<Usuario>>> Get()
         {
             return await _context.Usuarios.ToListAsync();
         }
 
+        // Método GET - Obtener un usuario por ID
         [HttpGet("{id}")]
         public async Task<ActionResult<Usuario>> Get(int id)
         {
@@ -30,6 +33,7 @@ namespace Evaluacion_Net_2.Controllers
             return usuario == null ? NotFound() : usuario;
         }
 
+        // Método POST - Agregar un nuevo usuario
         [HttpPost]
         public async Task<ActionResult<Usuario>> Post(Usuario usuario)
         {
@@ -49,7 +53,7 @@ namespace Evaluacion_Net_2.Controllers
             return CreatedAtAction(nameof(Get), new { id = usuario.Id }, usuario);
         }
 
-
+        // Método PUT - Actualizar un usuario existente
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, Usuario usuario)
         {
@@ -85,6 +89,7 @@ namespace Evaluacion_Net_2.Controllers
             return Ok("Usuario actualizado correctamente.");
         }
 
+        // Método DELETE - Eliminar un usuario por ID
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

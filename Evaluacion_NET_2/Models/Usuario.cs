@@ -2,6 +2,7 @@
 
 namespace Evaluacion_Net_2.Models
 {
+    // Modelo que representa un usuario en la biblioteca
     public class Usuario
     {
         public int Id { get; set; }

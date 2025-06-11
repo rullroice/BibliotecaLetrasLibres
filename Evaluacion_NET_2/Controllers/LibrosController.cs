@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Evaluacion_Net_2.Controllers
 {
+    // Controlador para manejar las operaciones CRUD de los libros
     [Route("api/[controller]")]
     [ApiController]
     public class LibrosController : ControllerBase
@@ -16,7 +17,7 @@ namespace Evaluacion_Net_2.Controllers
         {
             _context = context;
         }
-
+        //Metodo GET - Obtener todos los libros
         [HttpGet]
         public async Task<ActionResult<List<Libro>>> Get()
         {
@@ -30,6 +31,7 @@ namespace Evaluacion_Net_2.Controllers
             return libro == null ? NotFound() : libro;
         }
 
+        //Metodo POST - Agregar un nuevo libro
         [HttpPost]
         public async Task<ActionResult<Libro>> Post(Libro libro)
         {
@@ -47,7 +49,7 @@ namespace Evaluacion_Net_2.Controllers
             return CreatedAtAction(nameof(Get), new { id = libro.Id }, libro);
         }
 
-
+        //Metodo PUT - Actualizar un libro existente 
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, Libro libro)
         {
@@ -71,7 +73,7 @@ namespace Evaluacion_Net_2.Controllers
             return Ok("Libro actualizado correctamente.");
         }
 
-
+        //Metodo DELETE - Eliminar un libro por ID
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

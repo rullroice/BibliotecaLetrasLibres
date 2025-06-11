@@ -34,7 +34,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-
+// Migrations y creación de base de datos
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();

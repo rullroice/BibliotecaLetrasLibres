@@ -3,8 +3,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Evaluacion_Net_2.Data
 {
+    // Contexto de la base de datos para la aplicación
     public class AppDbContext : DbContext
     {
+        // Constructor que recibe las opciones de configuración del contexto
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<Libro> Libros { get; set; }

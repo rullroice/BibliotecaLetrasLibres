@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|c:\\users\\lizan\\source\\repos\\evaluacion_net_2\\evaluacion_net_2\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|solutionrelative:evaluacion_net_2\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|c:\\users\\lizan\\source\\repos\\evaluacion_net_2\\evaluacion_net_2\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|solutionrelative:evaluacion_net_2\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|c:\\users\\lizan\\source\\repos\\evaluacion_net_2\\evaluacion_net_2\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|solutionrelative:evaluacion_net_2\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|c:\\users\\lizan\\source\\repos\\evaluacion_net_2\\evaluacion_net_2\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|solutionrelative:evaluacion_net_2\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|c:\\users\\lizan\\source\\repos\\evaluacion_net_2\\evaluacion_net_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +31,12 @@
       "RelativeMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|solutionrelative:evaluacion_net_2\\models\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|c:\\users\\lizan\\source\\repos\\evaluacion_net_2\\evaluacion_net_2\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|solutionrelative:evaluacion_net_2\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|c:\\users\\lizan\\source\\repos\\evaluacion_net_2\\evaluacion_net_2\\migrations\\20250607014856_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|solutionrelative:evaluacion_net_2\\migrations\\20250607014856_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|c:\\users\\lizan\\source\\repos\\evaluacion_net_2\\evaluacion_net_2\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|solutionrelative:evaluacion_net_2\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|c:\\users\\lizan\\source\\repos\\evaluacion_net_2\\evaluacion_net_2\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|solutionrelative:evaluacion_net_2\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|c:\\users\\lizan\\source\\repos\\evaluacion_net_2\\evaluacion_net_2\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|solutionrelative:evaluacion_net_2\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71AE20EE-1690-4166-899E-7EA59AFA1536}|Evaluacion_NET_2\\Evaluacion_NET_2.csproj|c:\\users\\lizan\\source\\repos\\evaluacion_net_2\\evaluacion_net_2\\evaluacion_net_2.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -50,11 +54,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Models\\Libro.cs",
+              "RelativeDocumentMoniker": "Evaluacion_NET_2\\Models\\Libro.cs",
+              "ToolTip": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Models\\Libro.cs",
+              "RelativeToolTip": "Evaluacion_NET_2\\Models\\Libro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:41:19.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Controllers\\LibrosController.cs",
+              "RelativeDocumentMoniker": "Evaluacion_NET_2\\Controllers\\LibrosController.cs",
+              "ToolTip": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Controllers\\LibrosController.cs",
+              "RelativeToolTip": "Evaluacion_NET_2\\Controllers\\LibrosController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAmwAgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T20:12:58.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrestamosController.cs",
+              "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Controllers\\PrestamosController.cs",
+              "RelativeDocumentMoniker": "Evaluacion_NET_2\\Controllers\\PrestamosController.cs",
+              "ToolTip": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Controllers\\PrestamosController.cs",
+              "RelativeToolTip": "Evaluacion_NET_2\\Controllers\\PrestamosController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwF8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:33:11.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Evaluacion_NET_2\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Evaluacion_NET_2\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:54:03.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Program.cs",
+              "RelativeDocumentMoniker": "Evaluacion_NET_2\\Program.cs",
+              "ToolTip": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Program.cs",
+              "RelativeToolTip": "Evaluacion_NET_2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T14:02:06.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Evaluacion_NET_2\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Models\\Usuario.cs",
+              "RelativeToolTip": "Evaluacion_NET_2\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:52:03.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Prestamo.cs",
+              "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Models\\Prestamo.cs",
+              "RelativeDocumentMoniker": "Evaluacion_NET_2\\Models\\Prestamo.cs",
+              "ToolTip": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Models\\Prestamo.cs",
+              "RelativeToolTip": "Evaluacion_NET_2\\Models\\Prestamo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:51:38.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250607014856_Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Migrations\\20250607014856_Inicial.cs",
+              "RelativeDocumentMoniker": "Evaluacion_NET_2\\Migrations\\20250607014856_Inicial.cs",
+              "ToolTip": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Migrations\\20250607014856_Inicial.cs",
+              "RelativeToolTip": "Evaluacion_NET_2\\Migrations\\20250607014856_Inicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T00:14:59.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Evaluacion_NET_2\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Evaluacion_NET_2\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:29:02.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Evaluacion_NET_2.http",
               "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Evaluacion_NET_2.http",
               "RelativeDocumentMoniker": "Evaluacion_NET_2\\Evaluacion_NET_2.http",
@@ -66,111 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LibrosController.cs",
-              "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Controllers\\LibrosController.cs",
-              "RelativeDocumentMoniker": "Evaluacion_NET_2\\Controllers\\LibrosController.cs",
-              "ToolTip": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Controllers\\LibrosController.cs",
-              "RelativeToolTip": "Evaluacion_NET_2\\Controllers\\LibrosController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAA4wD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T20:12:58.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PrestamosController.cs",
-              "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Controllers\\PrestamosController.cs",
-              "RelativeDocumentMoniker": "Evaluacion_NET_2\\Controllers\\PrestamosController.cs",
-              "ToolTip": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Controllers\\PrestamosController.cs",
-              "RelativeToolTip": "Evaluacion_NET_2\\Controllers\\PrestamosController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAIwAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T21:33:11.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Program.cs",
-              "RelativeDocumentMoniker": "Evaluacion_NET_2\\Program.cs",
-              "ToolTip": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Program.cs",
-              "RelativeToolTip": "Evaluacion_NET_2\\Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T14:02:06.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Evaluacion_NET_2\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Models\\Usuario.cs",
-              "RelativeToolTip": "Evaluacion_NET_2\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T22:52:03.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Evaluacion_NET_2\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "Evaluacion_NET_2\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T22:54:03.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Prestamo.cs",
-              "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Models\\Prestamo.cs",
-              "RelativeDocumentMoniker": "Evaluacion_NET_2\\Models\\Prestamo.cs",
-              "ToolTip": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Models\\Prestamo.cs",
-              "RelativeToolTip": "Evaluacion_NET_2\\Models\\Prestamo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T22:51:38.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Libro.cs",
-              "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Models\\Libro.cs",
-              "RelativeDocumentMoniker": "Evaluacion_NET_2\\Models\\Libro.cs",
-              "ToolTip": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Models\\Libro.cs",
-              "RelativeToolTip": "Evaluacion_NET_2\\Models\\Libro.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T22:41:19.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Evaluacion_NET_2\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Evaluacion_NET_2\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T21:29:02.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lizan\\source\\repos\\Evaluacion_NET_2\\Evaluacion_NET_2\\appsettings.json",
               "RelativeDocumentMoniker": "Evaluacion_NET_2\\appsettings.json",

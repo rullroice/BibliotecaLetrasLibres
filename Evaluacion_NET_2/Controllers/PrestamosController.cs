@@ -6,6 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Evaluacion_Net_2.Controllers
 {
+    // Controlador para manejar las operaciones de préstamos de libros
     [Route("api/[controller]")]
     [ApiController]
     public class PrestamosController : ControllerBase
@@ -17,12 +18,14 @@ namespace Evaluacion_Net_2.Controllers
             _context = context;
         }
 
+        // Método GET - Obtener todos los préstamos
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Prestamo>>> GetPrestamos()
         {
             return await _context.Prestamos.ToListAsync();
         }
 
+        // Método POST - Crear un nuevo préstamo
         [HttpPost]
         public async Task<ActionResult<Prestamo>> CrearPrestamo([FromBody] PrestamoRequest request)
         {
@@ -59,6 +62,7 @@ namespace Evaluacion_Net_2.Controllers
             return Ok(prestamo);
         }
 
+        // Método POST - Devolver un libro por ID
         [HttpPost("devolver/{id}")]
         public async Task<IActionResult> DevolverLibro(int id)
         {
@@ -82,6 +86,7 @@ namespace Evaluacion_Net_2.Controllers
 
         }
 
+        // Método GET - Obtener los prestamos de un usuario específico
         [HttpGet("usuario/{usuarioId}")]
         public async Task<ActionResult<IEnumerable<Prestamo>>> GetPrestamosPorUsuario(int usuarioId)
         {

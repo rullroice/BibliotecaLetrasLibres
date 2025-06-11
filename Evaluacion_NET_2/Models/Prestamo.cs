@@ -2,6 +2,7 @@
 
 namespace Evaluacion_Net_2.Models
 {
+    // Modelo que representa un préstamo de libro en la biblioteca
     public class Prestamo
     {
         public int Id { get; set; }
